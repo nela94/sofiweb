@@ -1,1 +1,56 @@
+body{
+  background: url("homepage.JPG") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+}
 
+div.Nav-container{
+  position: relative;
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.navbar{
+font-family: 'Source Sans Pro',sans-serif;
+font-weight: 400;
+font-style: normal;
+text-transform: uppercase;
+width: 355.359px;
+height: 21px;
+position: absolute;
+right: 100px;
+}
+
+ul.horizontal{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li.topli{
+  margin: 0;
+  display: inline-block;
+  width: auto;
+  height: auto;
+  list-style: none;
+}
+
+.containsNavContents{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a.top{
+  padding-left: 33px;
+  color: #ffffff;
+  text-decoration: none;
+}
