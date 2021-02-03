@@ -54,3 +54,11 @@ a.top{
   color: #ffffff;
   text-decoration: none;
 }
+
+.player{
+  position: absolute;
+  padding-top:20px;
+  top: 417px;
+  left: 70%;
+  display: flex;
+}
