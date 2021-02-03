@@ -21,9 +21,9 @@ function MusicPlayer(){
 
 		<div className="music-player">
 			<div className="player-content-container">
-				<h1 className="artist-name">Incubus</h1> {/*track-title*/}
-				<h2 className="album-title">Make Yourself</h2> {/*album-title*/}
-				<h3 className="song-title">"Stellar"</h3> {/*song-title*/}
+				<h1 className="artist-name">FiloSofia</h1> {/*track-title*/}
+				<h2 className="album-title">Your Album Title</h2> {/*album-title*/}
+				<h3 className="song-title">"Your Song"</h3> {/*song-title*/}
 				<div className="music-player-controls">
 					<div className="control-back"></div> {/*control-back*/}
 					<div className="control-play"></div> {/*control-play*/}
@@ -37,7 +37,7 @@ function MusicPlayer(){
 			<div className="vinyl"></div> {/*vinyl*/}
 		</div> {/*album-art*/}
 
-	</div> 
+	</div>
   )
 }
 

@@ -1,9 +1,5 @@
 body{
   background: url("homepage.JPG") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
   position: relative;
 }
 
@@ -19,19 +15,20 @@ div.Nav-container{
 
 .navbar{
 font-family: 'Source Sans Pro',sans-serif;
-font-weight: 400;
+font-weight: 500;
 font-style: normal;
 text-transform: uppercase;
-width: 355.359px;
+width: 430px;
 height: 21px;
 position: absolute;
-right: 100px;
+right: 8%;
+font-size: 20px
 }
 
 ul.horizontal{
   text-align: center;
-  margin: 0;
-  padding: 0;
+  margin: 2px;
+  padding: 5px;
   list-style: none;
 }
 
@@ -58,7 +55,12 @@ a.top{
 .player{
   position: absolute;
   padding-top:20px;
-  top: 417px;
-  left: 70%;
+  top: 360%;
+  left: 60%;
   display: flex;
+  opacity: 0.7;
+}
+
+h1.player{
+  position: relative;
 }
