@@ -1,12 +1,11 @@
 body{
-  background: url("homepage.JPG") no-repeat center center fixed;
-  position: relative;
+  background: url("back.jpeg") no-repeat center center fixed;
 }
 
 div.Nav-container{
   position: relative;
   display: flex;
-  height: 100px;
+  height: 89px;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
@@ -21,7 +20,7 @@ text-transform: uppercase;
 width: 430px;
 height: 21px;
 position: absolute;
-right: 8%;
+right: 61%;
 font-size: 20px
 }
 
@@ -48,19 +47,24 @@ li.topli{
 
 a.top{
   padding-left: 33px;
-  color: #ffffff;
+  color: black;
   text-decoration: none;
 }
 
 .player{
-  position: absolute;
-  padding-top:20px;
-  top: 360%;
-  left: 60%;
+  position: relative;
+  width: 45%;
+  height:42%;
   display: flex;
   opacity: 0.7;
+  left: 59%;
+  top: 20px;
 }
 
-h1.player{
-  position: relative;
+.headercontent{
+  position: absolute;
+  width: 60%;
+  z-index: 2;
+  top: 0px;
+  left: 30%;
 }

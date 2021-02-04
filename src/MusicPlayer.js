@@ -12,6 +12,7 @@ function MusicPlayer(){
 
 			playButton.on('click', function() {
 				$('.music-player-container').toggleClass('is-playing');
+        console.log("button clicked")
 			});
 		});
 	})(jQuery);
@@ -21,9 +22,9 @@ function MusicPlayer(){
 
 		<div className="music-player">
 			<div className="player-content-container">
-				<h1 className="artist-name">FiloSofia</h1> {/*track-title*/}
-				<h2 className="album-title">Your Album Title</h2> {/*album-title*/}
-				<h3 className="song-title">"Your Song"</h3> {/*song-title*/}
+				<h1 className="artist-name">Filo Sofia</h1> {/*track-title*/}
+				<h2 className="album-title">Single</h2> {/*album-title*/}
+				<h3 className="song-title">"What's Up"</h3> {/*song-title*/}
 				<div className="music-player-controls">
 					<div className="control-back"></div> {/*control-back*/}
 					<div className="control-play"></div> {/*control-play*/}

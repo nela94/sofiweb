@@ -4,8 +4,8 @@ import MusicPlayer from './MusicPlayer'
 function App() {
   return (
     <div className="app">
-      <header className="App-header" style={{width: '1200px'}}>
-        <div className="Nav-container">
+      <header className="App-header" style={{width: '1100px'}}>
+        {/*<div className="Nav-container">
           <div className="navbar">
             <ul className="horizontal">
               <li className="topli">
@@ -30,10 +30,10 @@ function App() {
               </li>
             </ul>
           </div>
-        </div>
+        </div>*/}
       </header>
       <div className="player">
-      <h1>Listen Now!</h1>
+      <h2 className="headercontent">Listen Now!</h2>
         <MusicPlayer/>
       </div>
     </div>
