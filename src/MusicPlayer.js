@@ -1,24 +1,25 @@
-import jQuery from 'jquery';
 import './musicplayer.scss';
+import jQuery from 'jquery'
 
 function MusicPlayer(){
 
   (function($) {
-		$(document).ready(function() {
+  		$(document).ready(function() {
 
-			// Pause/Play functionality
-			var playButton = $('.control-play'),
-				album = $('.album');
+  			// Pause/Play functionality
+  			var playButton = $('.control-play'),
+  				album = $('.album');
 
-			playButton.on('click', function() {
-				$('.music-player-container').toggleClass('is-playing');
-        console.log("button clicked")
-			});
-		});
-	})(jQuery);
+  			playButton.on('click', function() {
+  				$('.music-player-container').toggleClass('control-play');
+          console.log("clicked")
+
+  			});
+  		});
+  	})(jQuery);
 
   return (
-    <div className="music-player-container is-playing">
+    <div className="music-player-container">
 
 		<div className="music-player">
 			<div className="player-content-container">

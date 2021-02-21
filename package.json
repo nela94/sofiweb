@@ -18,8 +18,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "react-scripts test"
   },
   "eslintConfig": {
     "extends": [
@@ -39,7 +38,9 @@
       "last 1 safari version"
     ]
   },
+  "homepage": "https://nela94.github.io/sofiweb/",
   "devDependencies": {
-    "sass": "^1.32.6"
+    "sass": "^1.32.6",
+    "gh-pages": "^2.0.1"
   }
 }

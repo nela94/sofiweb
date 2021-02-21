@@ -68,7 +68,7 @@ $color-background: #fef29c;
 		@include filter(blur(8px));
 		background-color: rgba(0, 0, 0, 0.8);
 		bottom: 105px;
-		content: " ";
+		content: ' ';
 		display: block;
 		height: 10px;
 		left: 19px;
@@ -179,7 +179,7 @@ $color-background: #fef29c;
 		url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/83141/play.svg") center /
 		cover no-repeat;
 
-	.is-playing & {
+	 .is-playing & {
 		background: transparent
 			url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/83141/pause.svg") center /
 			cover no-repeat;

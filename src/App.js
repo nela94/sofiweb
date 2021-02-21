@@ -2,6 +2,7 @@ import './App.css';
 import MusicPlayer from './MusicPlayer'
 
 function App() {
+
   return (
     <div className="app">
       <header className="App-header" style={{width: '1100px'}}>
