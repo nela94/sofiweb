@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/sofiweb/static/css/main.6f2c0e84.chunk.css",
+    "main.js": "/sofiweb/static/js/main.471ed053.chunk.js",
+    "main.js.map": "/sofiweb/static/js/main.471ed053.chunk.js.map",
+    "runtime-main.js": "/sofiweb/static/js/runtime-main.128aec9a.js",
+    "runtime-main.js.map": "/sofiweb/static/js/runtime-main.128aec9a.js.map",
+    "static/js/2.ecafb0ed.chunk.js": "/sofiweb/static/js/2.ecafb0ed.chunk.js",
+    "static/js/2.ecafb0ed.chunk.js.map": "/sofiweb/static/js/2.ecafb0ed.chunk.js.map",
+    "static/js/3.242766b5.chunk.js": "/sofiweb/static/js/3.242766b5.chunk.js",
+    "static/js/3.242766b5.chunk.js.map": "/sofiweb/static/js/3.242766b5.chunk.js.map",
+    "index.html": "/sofiweb/index.html",
+    "static/css/main.6f2c0e84.chunk.css.map": "/sofiweb/static/css/main.6f2c0e84.chunk.css.map",
+    "static/js/2.ecafb0ed.chunk.js.LICENSE.txt": "/sofiweb/static/js/2.ecafb0ed.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/sofiweb/static/media/back.f7c8686f.jpeg",
+    "static/media/musicplayer.scss": "/sofiweb/static/media/whatsup.34812b22.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.128aec9a.js",
+    "static/js/2.ecafb0ed.chunk.js",
+    "static/css/main.6f2c0e84.chunk.css",
+    "static/js/main.471ed053.chunk.js"
+  ]
+}
