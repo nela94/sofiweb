@@ -1,3 +1,4 @@
+import React, { Component }  from 'react';
 import './musicplayer.scss';
 import jQuery from 'jquery'
 
